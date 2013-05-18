@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-char *x =
-#include "foo.html"
-    ;
+extern char foo[];
 
 int
 main(void)
 {
-    puts(x);
+    puts(foo);
 }
